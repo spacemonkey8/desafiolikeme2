@@ -35,7 +35,7 @@ const borrarPosts = async (id) => {
         await pool.query(consulta, values)
     }
     catch (error) {
-        res.status(500).send('Algo está mal...')
+        res.status(500).send('ups algo salio mal')
     }
 }
 
